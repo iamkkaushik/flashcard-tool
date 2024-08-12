@@ -1,0 +1,22 @@
+/* src/components/Flashcard.css */
+
+.flashcard {
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    transition: transform 0.5s;
+  }
+  
+  .flashcard:hover {
+    transform: scale(1.05);
+  }
+  
